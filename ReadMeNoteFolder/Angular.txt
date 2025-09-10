@@ -1,0 +1,8 @@
+Angular dev certificatrion preparation guide
+-------------------------------------
+1.let and cosnt is block scope , and var is fuction scope 
+cost can not be initialised again , var and let can be initialised again
+2.install typescript
+npm install typescript in angualr cli commandline 
+then npm tsc name.ts and then it convert to js and with index.html , script we can attach js file and can be seen in broweserr
+3.
