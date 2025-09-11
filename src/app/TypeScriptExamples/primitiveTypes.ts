@@ -26,3 +26,16 @@ let uniqueId: symbol = Symbol("id");
 
 // Example usage
 //console.log(`Name: ${personName}, Age: ${age}, Active: ${isActive}`);
+
+
+// Array type
+let scores: number[] = [85, 92, 78];
+console.log("Scores:", scores);
+
+// Object type
+let person: { name: string; age: number; isActive: boolean } = {
+    name: "Bob",
+    age: 25,
+    isActive: false
+};
+console.log("Person:", person);
