@@ -39,3 +39,4 @@ let person: { name: string; age: number; isActive: boolean } = {
     isActive: false
 };
 console.log("Person:", person);
+//comment
