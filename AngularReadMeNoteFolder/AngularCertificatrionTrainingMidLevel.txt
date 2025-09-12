@@ -1,0 +1,73 @@
+install nodejs - runtime environemtn to run javascript
+-PS C:\Users\mona.borisagar\OneDrive - Accenture\Apps\learningDevelopment\AngularCeritificationPractice> npm -v
+npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on 
+this system. For more information, see about_Execution_Policies at 
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ npm -v
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\mona.borisagar\OneDrive - Accenture\Apps\learningDevelopment\AngularCeritificationPractice> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+PS C:\Users\mona.borisagar\OneDrive - Accenture\Apps\learningDevelopment\AngularCeritificationPractice> npm -v
+10.9.3
+PS C:\Users\mona.borisagar\OneDrive - Accenture\Apps\learningDevelopment\AngularCeritificationPractice> 
+
+3.Version	Release Date	Key Features / Notes
+Angular 2	Sep 2016	Complete rewrite of AngularJS. Component-based architecture. TypeScript introduced.
+Angular 4	Mar 2017	Skipped v3 to align router version. Smaller bundle size, better *ngIf/*ngFor.
+Angular 5	Nov 2017	Build optimizer, improved compiler, faster builds.
+Angular 6	May 2018	Angular CLI v6, ng update, Angular Elements for web components.
+Angular 7	Oct 2018	CLI prompts, virtual scrolling, drag & drop.
+Angular 8	May 2019	Ivy (opt-in), differential loading, web workers support.
+Angular 9	Feb 2020	Ivy renderer becomes default, smaller bundles, improved type checking.
+Angular 10	Jun 2020	Optional stricter settings, updated TypeScript & TSLint.
+Angular 11	Nov 2020	Faster builds, better logging, Hot Module Replacement (HMR).
+Angular 12	May 2021	View Engine removed (Ivy only), improved CLI, strict mode default.
+Angular 13	Nov 2021	No support for IE11, TypeScript 4.4, persistent build cache.
+Angular 14	Jun 2022	Standalone components (experimental), typed reactive forms.
+Angular 15	Nov 2022	Standalone APIs stable, directive composition API.
+Angular 16	May 2023	Signals (reactivity), better SSR support, standalone by default.
+Angular 17	Nov 2023	Full deferrable views, zoneless support (experimental), control flow syntax (@if, @for).
+Angular 18	May 2024	Signals stabilization, new hydration, improved performance, stricter SSR defaults.
+Angular now leans toward standalone components and signal-based reactivity.
+
+4
+1. add - Adds support for an external library.
+   Ex: ng add @angular/material
+2. analytics - disable usage of annonymous xcollection data
+   Ex: ng analytics off
+3. build (b) - Compiles the app to dist/.
+   Ex: ng build --prod
+4. cache - Configures/retrieves disk cache stats.
+   Ex: ng cache status
+5. completion - Enables CLI autocompletion.
+   Ex: ng completion >> ~/.bashrc
+6. config - Gets/sets values in angular.json.
+   Ex: ng config cli.defaultCollection @angular-eslint/schematics
+7. deploy - Invokes deploy builder.
+   Ex: ng deploy
+8. e2e (e) - Builds, serves & runs end-to-end tests.
+   Ex: ng e2e
+9. extract-i18n - Extracts i18n messages.
+   Ex: ng extract-i18n --output-path src/locale
+10. generate (g) - Generates code from schematics.
+    Ex: ng generate component login
+11. lint - Runs linting tools.
+    Ex: ng lint
+12. new (n) - Creates a new Angular project.
+    Ex: ng new my-app
+13. run - Runs an Architect target.
+    Ex: ng run my-app:build:production
+14. serve (s, dev) - Builds & serves app with live reload.
+    Ex: ng serve --open
+15. test (t) - Runs unit tests.
+    Ex: ng test
+16. update - Updates dependencies.
+    Ex: ng update @angular/core @angular/cli
+17. version (v) - Displays Angular CLI version.
+    Ex: ng version
+	
+	
+5.angular.json - main configurartion file responsible for build, serve, lint, test 
+6.	
