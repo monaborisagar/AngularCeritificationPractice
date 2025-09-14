@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RxjsOperatorComponent } from './rxjs-operator/rxjs-operator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RxjsOperatorComponent
   ],
   imports: [
     BrowserModule,
